@@ -1,9 +1,18 @@
-import { Button } from "@mui/material";
+import {
+  Typography,
+} from '@mui/material';
+import EnabledModules from '../components/Main/EnabledModules';
+
 function Home() {
-  return <div>
-    <h1>Hello World</h1>
-    <Button>hello mundo</Button>
-  </div>
+  return (
+    <>
+      <Typography variant="h4">Modelos de cartas</Typography>
+      <Typography variant="subtitle1">
+        Genere sus templates de cartas o documentos de forma rapida.
+      </Typography>
+      <EnabledModules />
+    </>
+  );
 }
 
 export default Home;
