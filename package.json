@@ -1,0 +1,23 @@
+{
+  "name": "easy_docs",
+  "version": "0.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:mariovzc/easy_templaes.git",
+  "author": "mariovzc",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.7",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev -p 8000",
+    "build": "next build",
+    "start": "next start -p 8000",
+    "lint": "next lint"
+  }
+}
